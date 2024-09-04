@@ -2,7 +2,7 @@
 
 const Social = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-black">
+    <div className="flex justify-center items-center min-h-screen bg-custom-gradient">
       <div className="w-4/5 max-w-3xl">
         <div className="relative flex items-center justify-center bg-gray-800 shadow-md transition-all duration-300 overflow-hidden h-16 sm:h-20 hover:shadow-lg group rounded-lg">
           <span className="absolute flex items-center justify-center w-full h-full text-white font-mono text-2xl font-bold opacity-100 transition-opacity duration-250 z-10 group-hover:opacity-0">

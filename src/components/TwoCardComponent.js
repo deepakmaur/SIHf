@@ -2,7 +2,7 @@ import React from 'react';
 
 const TwoCardComponent = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-black">
+    <div className="flex items-center justify-center min-h-screen bg-custom-gradient">
       <div className="relative flex items-center justify-center w-[400px] rounded-[24px] transition-transform duration-[0.48s] ease-in-out hover:translate-y-[-16px]">
         <div className="relative flex flex-col items-start gap-[24px] p-[36px] rounded-[22px] text-white bg-[#0a3cff] overflow-hidden transition-all duration-[0.48s] ease-in-out">
           
