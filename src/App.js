@@ -1,5 +1,5 @@
 // src/App.js
-import './App.css';
+import "./App.css";
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
@@ -23,12 +23,11 @@ function App({ children }) {
   }, []);
 
   return (
-    
     <Router>
       {loading ? (
         <Preloader />
       ) : (
-        <div className="bg-custom-gradient text-white min-h-screen bg-fixed bg-cover bg-center ">
+        <div className="bg-custom-gradient text-white min-h-screen bg-fixed bg-cover bg-center  ">
           <Header />
           <Routes>
             <Route path="/" element={<HeroSection />} />
