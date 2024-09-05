@@ -3,7 +3,8 @@ import React from 'react';
 const CardComponent = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-custom-gradient">
-      <div className="w-[90%] max-w-[500px] bg-[#023252] rounded-lg shadow-lg overflow-hidden">
+      <div className="w-[90%] max-w-[500px] bg-[#023252] rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-[#13b37f] hover:to-[#11a3c8]">
+        
         {/* Inner container with black background */}
         <div className="bg-black p-4">
           <div className="flex items-center mb-4">
