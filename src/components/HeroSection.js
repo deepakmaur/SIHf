@@ -13,9 +13,7 @@ const HeroSection = () => {
           <button className="bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
             Try ChatGPT
           </button>
-          <button className="bg-gray-800 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
-            Download ChatGPT desktop
-          </button>
+          
         </div>
         <p className="text-lg mb-8">
           Free to use. Easy to try. Just ask and ChatGPT can help with writing,
